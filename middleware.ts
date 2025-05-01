@@ -7,6 +7,7 @@ export default clerkMiddleware(async (auth, req) => {
     await auth.protect();
   }
 });
+//
 
 export const config = {
   matcher: [

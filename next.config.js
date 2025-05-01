@@ -3,7 +3,7 @@ const nextConfig = {
   images: {
     domains: ['sakararyals3bucket.s3.ap-southeast-1.amazonaws.com'],
   },
- output:"standalone"
+//  output:"standalone"
 }
 
 module.exports = nextConfig
